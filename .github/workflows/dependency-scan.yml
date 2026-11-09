@@ -1,3 +1,4 @@
+>>> MULAI dependency-scan.yml
 name: Dependency Security Scan
 
 on:
@@ -33,3 +34,4 @@ jobs:
         with:
           sarif_file: "fs-trivy-results.sarif"
           category: "fs-scanning"
+<<< SELESAI dependency-scan.yml
